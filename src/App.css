@@ -1,0 +1,57 @@
+body{
+    background: #EFEDE8;
+    color: black
+}
+
+.App {
+  text-align: center;
+}
+.container{
+    width: 100%;
+    background: #EFEDE8;
+}
+.col{
+    padding: 2.5rem;
+}
+.heading{
+    background: #098B8C;
+    margin: 0;
+    padding: 3rem 0;
+    color: white;
+}
+.defaultTable{
+    color: black;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(1,1,1,0.1);
+    background: white;
+    border-collapse: collapse;
+}
+.defaultTable thead tr th{
+    text-align: left;
+    color: #098B8C;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+.defaultTable tbody tr td{
+    text-align: left;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-top: 1px solid #ddd;
+}
+.defaultTable tbody tr:hover{
+    color: #098B8C!important;
+}
+.defaultTable .col1{
+    color: grey;
+}
+@media (max-width:779px) {
+    .defaultTable thead tr th{
+        font-size: 1.3rem;
+        padding: 1rem 0.25rem;
+    }
+    .defaultTable tbody tr td{
+        padding: 1rem 0.50rem;
+        font-size: 0.75rem;
+    }
+}
